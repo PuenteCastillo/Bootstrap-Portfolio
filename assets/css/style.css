@@ -1,0 +1,116 @@
+body{
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rN0W64K4ipau8gxv/light-gray-background-soft-fifteen-shades-of-grey-smooth-background-with-the-addition-of-a-bit-of-noise_be-2qbqqkl_thumbnail-full01.png");
+
+}
+.aboutMePic{
+    
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.aboutMeImg{
+    width: 95%;
+    height: 95%;
+   border-radius: 2%;
+    object-fit: cover;
+    box-shadow: 5px 10px 18px #888888;
+}
+.navClass{
+    
+    height: 5em;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.header{
+    background-color: #4aaaa5;
+    min-width: 25%;
+}
+.title{
+    border-width: 0 0 5px 0;
+    border-style: solid;
+    border-color: #cccccc;
+    color:  #4aaaa5;
+    margin: 1em;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 15px;
+
+}
+.footer {
+    
+    color: white;
+    background: #666666;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    border-color: #4aaaa5;
+    height: 3em;
+ }
+ .aboutMe{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.5;
+   color: #777777;
+   padding: 3em 5em 3em 5em;
+   min-height: 40em;
+ }
+
+ .img-con {
+   
+    width: 100%;
+   height: 250px;
+   overflow: hidden;
+   background: #000;
+   margin: auto;
+  }
+  
+  .image {
+  
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    overflow: hidden;
+    -moz-transition: all 1s;
+-webkit-transition: all 1s;
+transition: all 1s;
+    
+  }
+  .big{
+      height: 30em;
+  }
+
+  .overlay {
+    position: absolute;
+   top: 50%;
+    left: 0;
+    right: 0;
+    height: 30%;
+    width: 100%;
+    margin: auto;
+        opacity: 0;
+    transition: .5s ease;
+   background-color: #4aaaa5;
+    -webkit-filter: none;
+    filter: none;
+  }
+  
+  .img-con:hover .overlay {
+    opacity: 1;
+  }
+  .img-con:hover .image{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
